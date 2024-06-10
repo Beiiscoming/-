@@ -16,16 +16,15 @@
 - **網路爬蟲**：使用爬蟲技術自動蒐集相關數據。
 - **申請下載權限**：向數據提供方申請必要的數據下載權限。
 - **手動下載**：手動下載所需數據，確保數據的完整性和準確性。
-
-| Keywords                          | Dataset                                 | What I utilized                                                |
-|-----------------------------------|-----------------------------------------|----------------------------------------------------------------|
-| Define “a wave” of covid-19 pandemic | Our World in Data                      | New cases per million per day                                  |
-| **People Movement Fatigue Index** | COVID-19 Community Mobility Report      | Mobility                                                       |
-|                                   | Movement Range Map                      | Mobility                                                       |
-|                                   | OxCGRT                                  | Stringency value about containment and closure (8 policies)    |
-| **Daily Habit Fatigue Index**, **Mental Fatigue Index** | CTIS                                  | 2 Questionnaire answers about daily habit and mental situation |
-| **Daily Habit Fatigue Index**     | ICL-YouGov Global Survey                | 8 Questionnaire answers about daily habit                      |
-
+  
+| Keywords                          | Dataset                                 | What I utilized                                                | 數據收集方式    | 相關工具/套件                                    |
+|-----------------------------------|-----------------------------------------|----------------------------------------------------------------|-----------------|------------------------------------------------|
+| Define “a wave” of covid-19 pandemic | Our World in Data                      | New cases per million per day                                  | 網路爬蟲        | Python的Requests套件和Beautifulsoup4套件        |
+| **People Movement Fatigue Index** | COVID-19 Community Mobility Report      | Mobility                                                       | 網路爬蟲        | Python的Requests套件和Beautifulsoup4套件        |
+| **People Movement Fatigue Index** | Facebook Movement Range Map             | Mobility                                                       | 網路爬蟲        | Python的Requests套件和Beautifulsoup4套件        |
+| **People Movement Fatigue Index** | OxCGRT                                  | Stringency value about containment and closure (8 policies)    | 網路爬蟲        | Python的Requests套件和Beautifulsoup4套件        |
+| **Daily Habit Fatigue Index**, **Mental Fatigue Index** | CTIS               | 2 Questionnaire answers about daily habit and mental situation | 申請授權後下載  | -                                                |
+| **Daily Habit Fatigue Index**     | ICL-YouGov Global Survey                | 8 Questionnaire answers about daily habit                      | 申請授權後下載  | -                                                |
 
 
 ### 3. 資料探勘
