@@ -3,8 +3,7 @@
 ## 概要
 - 現行未有一套標準流程來定義疫情區間，故疫情上難以用不同時間區間的資料做比較與研究。故本專案希望提供一套演算法來定義一波疫情，以比較各地區數波疫情之下的各種資訊，例如不同波數疫情之下的防疫疲乏。
 - 本專案參考並優化此篇論文的方法，提供了全新的演算法來訂義疫情區間：
-
-- Chatterjee, A., Gupta, D., & Jain, S. (2021). COVID-19 Forecasting Using Time Series Models: An Exploratory Study on Indian Data. Journal of Epidemiology and Global Health, 11(4), 443-452. [Link to paper](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8583384/)
+Chatterjee, A., Gupta, D., & Jain, S. (2021). COVID-19 Forecasting Using Time Series Models: An Exploratory Study on Indian Data. Journal of Epidemiology and Global Health, 11(4), 443-452. [Link to paper](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8583384/)
 
 
 
@@ -61,6 +60,6 @@
 ### Step9 : 求起始日跟終止日
 - 求得起始週和中止週的最中間的日期，即為疫情起始日期和疫情終止日期。
 
-##　分析結果
+## 分析結果
 - 這是一個定義疫情區間的演算法，不過還需要更多的佐證來證明這個演算法的通用性是夠高的，例如應收集不同人們主觀認定疫情波段的準確日期區間來跟程式定義的疫情區間做比較。
-- 除了疫情波段的分析，也可以應用於心率數據分析
+- 除了疫情波段的分析，也可以應用於心率數據分析或是股票趨勢分析等需要時間序列分析的專案。
